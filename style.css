@@ -1,0 +1,25 @@
+.board
+{
+    /* width:25%; */
+    height:400px;
+    width:400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding:30px;
+    
+}
+
+.cell
+{
+    border:1px solid rgb(255, 249, 249);
+    padding:60px;
+    color:white;
+    background-color:rgb(34, 23, 182);
+
+}
+
+body{
+    background-color: rgb(228, 222, 222);
+    ;
+}
